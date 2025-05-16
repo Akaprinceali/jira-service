@@ -2,13 +2,9 @@ package com.fireflink.jiraservice.controller;
 
 import com.fireflink.jiraservice.model.dto.ApiResponseDTO;
 import com.fireflink.jiraservice.model.dto.TopicDTO;
-import com.fireflink.jiraservice.model.entity.Topic;
 import com.fireflink.jiraservice.service.TopicService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/topic")

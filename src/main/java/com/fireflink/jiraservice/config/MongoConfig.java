@@ -1,6 +1,5 @@
 package com.fireflink.jiraservice.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import org.modelmapper.ModelMapper;
